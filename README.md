@@ -1,4 +1,4 @@
-# Real time chat application
+# Real time chat application OUTPUT
 *COMPANY*:CODTECH IT SOLUTIONS
 
 *NAME*:NANCY PAINULY
@@ -56,3 +56,8 @@ Full-Stack Integration: Setting up and connecting a backend server with a modern
 Modular Design: Writing code that is clean, reusable, and easy to extend with additional features.
 
 This chat application lays the foundation for more advanced real-time apps like customer support tools, multiplayer games, or collaborative work platforms. It is a great starting point for developers who want to explore live web communication and full-stack app development in a hands-on way.
+
+
+**OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/93eda283-99ae-49f0-82f8-ec88070f348e)
