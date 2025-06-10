@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Real time chat application
+*COMPANY*:CODTECH IT SOLUTIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*NAME*:NANCY PAINULY
 
-## Available Scripts
+*INTERN ID*:CT08DK487
 
-In the project directory, you can run:
+*DOMAIN*: MERN STACK
 
-### `npm start`
+*DURATION*: 4 WEEKS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*MENTOR*: NEELA SANTOSH
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*DISCRIPTION OF THE PROJECT*:
 
-### `npm test`
+This is a simple real-time chat application built using Socket.IO for the backend and React for the frontend. It demonstrates live messaging capabilities between multiple users in real-time using WebSockets. The project is designed to be lightweight yet functional, focusing on core concepts like socket communication, frontend interaction, and UI responsiveness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies Used
+Backend: Node.js, Express.js, Socket.IO
 
-### `npm run build`
+Frontend: React, Socket.IO Client
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Communication: WebSockets
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Environment: Vite (for fast React dev environment) or Create React App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Project Features
+Real-time chat using WebSockets (Socket.IO)
+Simple and clean React UI
+Shows live messages instantly to all connected users
+Auto-scroll chat window
+Timestamp on each message
 
-### `npm run eject`
+Easy to extend for features like usernames, rooms, emojis, or authentication
+How It Works
+When a user sends a message, it is sent to the backend server using a Socket.IO event. The server then broadcasts the message to all connected clients. On receiving the message, each client updates its own UI to show the new message in real-time.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The backend uses Express.js to serve the application and handle socket connections, while Socket.IO manages all the WebSocket interactions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Learning Outcomes
+This project helped me understand:
+The fundamentals of WebSocket communication
+How Socket.IO makes real-time messaging simpler
+Basic React state and event handling
+Clean separation of backend and frontend
+Setting up a full-stack app in a modular way
